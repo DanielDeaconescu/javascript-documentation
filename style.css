@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.tech-doc-h {
+    padding: 20px;
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    height: 100%;
+    float: left;
+    border-right: 2px solid rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0, 22, 22, 0.4);
+    display: block;
+    padding: 10px 0 10px 30px;
+}
+
+.main-section {
+    padding-left: 350px;
+}
+
+.main-section h2 {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+
+    .main-section {
+        padding: 10px 50px;
+    }
+}
